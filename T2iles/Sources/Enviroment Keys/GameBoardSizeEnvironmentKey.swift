@@ -1,13 +1,6 @@
-//
-//  GameBoardSizeEnvironmentKey.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 30.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义游戏面板大小的枚举类，实现其getter和setter方法。
 struct GameBoardSizeEnvironmentKey: EnvironmentKey {
     public static let defaultValue: BoardSize = .fourByFour
 }
