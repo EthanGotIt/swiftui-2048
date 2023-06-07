@@ -1,13 +1,6 @@
-//
-//  TileBoardSizeEnvironmentKey.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义拼图面板大小的枚举类，实现了其
 struct TileBoardSizeEnvironmentKey: EnvironmentKey {
     public static let defaultValue: Int = 4
 }
