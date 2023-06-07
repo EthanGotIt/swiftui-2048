@@ -1,14 +1,7 @@
-//
-//  StandardTileColorTheme.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 31.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import Foundation
 import struct SwiftUI.Color
 
+//  定义结构体StandardTileColorTheme，用于为不同数字的方块提供颜色。
 struct StandardTileColorTheme: TileColorTheme {
     var lightTileColors: [TilePair] = [
         (Color(red:0.91, green:0.87, blue:0.83, opacity:1.00), Color(red:0.42, green:0.39, blue:0.35, opacity: 1.00)), // 2
