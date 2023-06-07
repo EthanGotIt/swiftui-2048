@@ -1,13 +1,6 @@
-//
-//  CheckboxToggleStyle.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 30.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义结构体CheckboxToggleStyle将开关Toggle的视图渲染成一个带有一个标签和一个可切换状态的圆形复选框。
 struct CheckboxToggleStyle: ToggleStyle {
     var size: CGSize = .init(width: 44, height: 44)
     
