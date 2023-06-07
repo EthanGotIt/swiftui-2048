@@ -1,13 +1,6 @@
-//
-//  PlistConfiguration.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 21.07.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import Foundation
 
+//  定义结构体PlistConfiguration让开发者方便地读取和解析属性列表文件。
 struct PlistConfiguration {
     let name: String
     let xml: Data
