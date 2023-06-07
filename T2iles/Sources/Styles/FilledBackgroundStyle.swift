@@ -1,13 +1,6 @@
-//
-//  FilledBackgroundStyle.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 19.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义结构体FilledBackgroundStyle将按钮渲染成一个填充背景的圆角矩形，并在用户按下按钮时添加缩放动画。
 struct FilledBackgroundStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label
