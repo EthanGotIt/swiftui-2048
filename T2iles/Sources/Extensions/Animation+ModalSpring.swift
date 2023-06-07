@@ -1,13 +1,6 @@
-//
-//  Animation+ModalSpring.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 19.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义Animation的扩展，定义静态属性modalSpring返回默认Spring动画，实现函数modalSpring返回不同混合持续时间的Spring动画。
 extension Animation {
     public static var modalSpring: Animation {
         .spring(response: 0.5, dampingFraction: 0.777, blendDuration: 0)
