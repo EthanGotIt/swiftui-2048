@@ -1,13 +1,6 @@
-//
-//  AppStorageKeys.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 20.07.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import Foundation
 
+//  定义枚举类AppStorageKeys初始化存储键audio。
 enum AppStorageKeys: String {
     case audio = "isAudioEnabled"
 }
