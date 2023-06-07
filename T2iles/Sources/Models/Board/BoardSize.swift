@@ -1,13 +1,6 @@
-//
-//  BoardSize.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 30.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import Foundation
 
+//  定义枚举类BoardSize，初始化面板大小。
 enum BoardSize: Int, Codable {
     case threeByThree = 3
     case fourByFour = 4
