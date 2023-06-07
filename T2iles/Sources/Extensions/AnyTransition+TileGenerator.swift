@@ -1,13 +1,6 @@
-//
-//  AnyTransition+TileGenerator.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义AnyTransition的扩展，实现函数blockGenerated返回一个自定义的高级视图转场动画对象。
 extension AnyTransition {
     
     static func blockGenerated(from: Edge, position: CGPoint, `in`: CGRect) -> AnyTransition {
