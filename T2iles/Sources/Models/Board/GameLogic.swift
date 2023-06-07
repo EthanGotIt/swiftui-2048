@@ -1,14 +1,7 @@
-//
-//  GameLogic.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 import Combine
 
+//  定义类GameLogic，定义别名TileMatrixType，实现reset、move、nilout、merge等方法赖处理游戏的逻辑。
 final class GameLogic: ObservableObject {
 
     // MARK: - Conformance to ObservableObject protocol
