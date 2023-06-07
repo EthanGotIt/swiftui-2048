@@ -1,13 +1,6 @@
-//
-//  Tile.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import Foundation
 
+//  定义泛型结构体IndexedTile<T: Tile>，结构体实现将方块们与它们在数组中的位置相关联，并且使用协议使得结构体更加灵活。
 typealias IndexPair = (Int, Int)
 
 protocol Tile: Identifiable, Equatable {
