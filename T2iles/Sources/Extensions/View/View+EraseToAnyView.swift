@@ -1,13 +1,6 @@
-//
-//  View+EraseToAnyView.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义View的扩展，定义属性eraseToAnyView将当前的视图包装成 AnyView 类型的视图。
 extension View {
     
     var eraseToAnyView: AnyView {
