@@ -1,13 +1,6 @@
-//
-//  ColorSchemeBackgroundTheme.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 31.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义协议ColorSchemeBackgroundTheme和遵循该协议的结构体StandardBackgroundColorScheme，实现了为不同的颜色方案提供背景颜色和反转背景颜色的功能。
 protocol ColorSchemeBackgroundTheme {
     
     // MARK: - Properties
