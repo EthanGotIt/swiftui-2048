@@ -1,13 +1,6 @@
-//
-//  Audio.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 30.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import AudioToolbox
 
+//  定义音频类Audio，实现了播放音频的方法play，方法先判断是否有缓存，如果有缓存则直接播放，反之则先加载缓存再播放音频。
 class Audio {
     private static var cachedURLs: [String : URL] = [:]
     
