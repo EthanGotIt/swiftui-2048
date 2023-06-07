@@ -1,6 +1,6 @@
 import SwiftUI
 
-//  
+//  定义协议TileColorTheme，目的是为数字方块提供颜色。
 protocol TileColorTheme {
     typealias TilePair = (background: Color, font: Color)
     
