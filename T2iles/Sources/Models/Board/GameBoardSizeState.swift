@@ -1,13 +1,7 @@
-//
-//  GameBoardSizeState.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 30.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义结构体GameBoardSizeState，维护属性boardSize将信息保存到UserDefaults并通过publishState方法发送通知。
+//  定义枚举类Suit用于表示userdefaults的suite名称，实现init方法初始化defaults属性。
 struct GameBoardSizeState {
     
     // MARK: - Properties
