@@ -1,13 +1,6 @@
-//
-//  PlistConfigurationKeyPath.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 21.07.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import Foundation
 
+//  定义枚举类PlistConfigurationKeyPath标识属性列表文件中各个项目的键路径。
 enum PlistConfigurationKeyPath: String {
     
     // MARK: - About
