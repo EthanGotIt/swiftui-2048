@@ -1,13 +1,6 @@
-//
-//  Edge+InvertedDirection.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义Edge的扩展，定义属性inverted返回该边缘位置的反向位置。
 extension Edge {
     
     var inverted: Edge {
