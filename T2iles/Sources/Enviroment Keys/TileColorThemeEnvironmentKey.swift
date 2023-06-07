@@ -1,13 +1,6 @@
-//
-//  TileColorThemeEnvironmentKey.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 31.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义颜色主题的枚举类，实现其getter和setter方法，设定默认的标准颜色主题为StandardTileColorTheme。
 struct TileColorThemeEnvironmentKey: EnvironmentKey {
     public static let defaultValue: TileColorTheme = StandardTileColorTheme()
 }
