@@ -1,13 +1,8 @@
-//
-//  TileMatrix.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义泛型结构体TileMatrix<T>：
+//  能够通过下标访问矩阵中的元素，能在指定位置添加方块对象，能移动方块对象。
+//  能将矩阵展开成一个包含所有非空元素的数组，能判断当前矩阵是否与另一个矩阵相等和是否存在可行的移动操作。
 struct TileMatrix<T>: CustomStringConvertible, CustomDebugStringConvertible where T: Tile {
     
     // MARK: - Conformance to CustomStringConvertible and CustomDebugStringConvertible protocols
