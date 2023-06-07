@@ -1,13 +1,6 @@
-//
-//  Direction.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义枚举类Direction计算视图的边缘和与当前边缘相反的边缘，定义Direction的扩展。
 enum Direction: String {
     
     // MARK: - Cases
