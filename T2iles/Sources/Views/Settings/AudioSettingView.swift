@@ -1,13 +1,6 @@
-//
-//  AudioSettingView.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 08.06.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图AudioSettingView，用来保存音频设置（启用或禁用）。
 struct AudioSettingView: View {
     
     // MARK: - AppStorage Properties
