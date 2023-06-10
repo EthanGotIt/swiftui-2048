@@ -1,13 +1,6 @@
-//
-//  TileBoardView.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图TileBoardView，用于展示游戏面板。
 struct TileBoardView: View {
     
     // MARK: - Properties
