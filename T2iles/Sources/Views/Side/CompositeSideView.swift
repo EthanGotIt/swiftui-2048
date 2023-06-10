@@ -1,13 +1,6 @@
-//
-//  CompositeSideView.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 31.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图CompositeSideView，用于获取其子视图的代理信息。
 struct CompositeSideView: View {
     @Binding var selectedView: SelectedView
     @Binding var sideMenuViewState: CGSize
