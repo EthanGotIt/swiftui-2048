@@ -1,14 +1,7 @@
-//
-//  CompositeView.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 import Combine
 
+//  定义视图CompositeView，用于展示游戏的主视图并管理游戏逻辑。
 struct CompositeView: View {
     
     // MARK: - Proeprties
