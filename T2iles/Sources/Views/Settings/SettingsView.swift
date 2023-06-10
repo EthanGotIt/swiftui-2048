@@ -1,13 +1,6 @@
-//
-//  SettingsView.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 30.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图SettingsView，用于获取游戏主题（明暗主题）。
 struct SettingsView: View {
 
     // MARK: - Environment
