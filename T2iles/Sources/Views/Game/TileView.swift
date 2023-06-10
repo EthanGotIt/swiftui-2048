@@ -1,13 +1,6 @@
-//
-//  TileView.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图TileView，用于展示数字方块。
 struct TileView: View {
     
     // MARK: - Properties
