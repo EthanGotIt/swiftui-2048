@@ -1,13 +1,6 @@
-//
-//  BlurEffect.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图修饰器BlurEffect，用于在视图上添加高斯模糊效果。
 struct BlurEffect: ViewModifier {
     
     let blurRaduis: CGFloat
