@@ -1,13 +1,6 @@
-//
-//  AnchoredScale.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图修饰器AnchoredScale，用于对视图进行缩放操作，并且可以指定缩放的锚点。
 struct AnchoredScale: ViewModifier {
     
     let scaleFactor: CGFloat
