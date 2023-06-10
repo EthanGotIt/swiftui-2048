@@ -1,13 +1,6 @@
-//
-//  ModalView.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 19.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图ModalView，表示一个简单的模态视图，用于展示一些简短的信息和按钮，以便用户可以选择执行某些操作或取消该操作。
 struct ModalView: View {
     
     // MARK: - Environment Properties
