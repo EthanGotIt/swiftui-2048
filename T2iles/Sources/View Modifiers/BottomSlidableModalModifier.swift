@@ -1,13 +1,6 @@
-//
-//  BottomSlidableModalModifier.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 30.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图修饰器BottomSlidableModalModifier，用于创建一个可以从底部滑出的模态框，并在用户上下滑动时响应用户交互的手势，添加自定义动画.modalSpring增加趣味性。
 struct BottomSlidableModalModifier: ViewModifier {
     let proxy: GeometryProxy
     @Binding var presentEndGameModal: Bool
