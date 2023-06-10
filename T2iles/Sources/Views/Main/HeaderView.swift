@@ -1,13 +1,6 @@
-//
-//  HeaderView.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 19.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图HeaderView，用于展示游戏的标题栏。
 struct HeaderView: View {
 
     // MARK: - Properties
