@@ -1,13 +1,6 @@
-//
-//  SideMenuView.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 19.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图SideMenuView，用于显示侧边菜单。
 struct SideMenuView: View {
     
     // MARK: - Environment Properties
