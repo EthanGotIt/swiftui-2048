@@ -1,6 +1,6 @@
 import SwiftUI
 
-//  定义视图类AboutView，
+//  定义视图类AboutView，用于显示应用程序的版权信息和相关超链接。
 struct AboutView: View {
     
     // MARK: - Properties
