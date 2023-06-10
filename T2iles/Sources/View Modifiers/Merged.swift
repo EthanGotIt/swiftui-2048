@@ -1,13 +1,6 @@
-//
-//  Merged.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 03.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图修饰器Merged，用于将两个不同的视图修饰器合并成一个，以便可以在需要时同时应用多个修饰效果。
 struct Merged<M1, M2>: ViewModifier where M1: ViewModifier, M2: ViewModifier {
     
     let m1: M1
