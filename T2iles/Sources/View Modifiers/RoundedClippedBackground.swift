@@ -1,13 +1,6 @@
-//
-//  RoundedClippedBackground.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 30.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图修饰器RoundedClippedBackground，用于在视图周围添加圆角边框，并以背景色填充内部区域。
 struct RoundedClippedBackground: ViewModifier {
     let backgroundColor: Color
     let proxy: GeometryProxy
