@@ -1,13 +1,6 @@
-//
-//  MainViewModifier.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 30.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图修饰器MainViewModifier，用于控制应用程序主界面的视觉效果，采用针对不同的屏幕大小的不同的偏移量和旋转角度，以适应不同的设备和方向。
 struct MainViewModifier: ViewModifier {
     let proxy: GeometryProxy
     @Binding var presentEndGameModal: Bool
