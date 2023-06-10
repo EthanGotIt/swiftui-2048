@@ -1,13 +1,6 @@
-//
-//  T2ilesApp.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 25.07.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  程序T2ilesApp
 @main
 struct T2ilesApp: App {
     
