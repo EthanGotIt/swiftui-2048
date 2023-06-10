@@ -1,13 +1,6 @@
-//
-//  SlideViewModifier.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 30.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义与手势类型绑定的视图修饰器SlideViewModifier，用于响应用户的滑动手势，并控制视图的缩放和可交互性。
 struct SlideViewModifier<T: Gesture>: ViewModifier {
     var gesture: T
     @Binding var presentEndGameModal: Bool
