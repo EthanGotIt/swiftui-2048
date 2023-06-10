@@ -1,13 +1,6 @@
-//
-//  GameStateBottomView.swift
-//  T2iles
-//
-//  Created by Astemir Eleev on 31.05.2020.
-//  Copyright © 2020 Astemir Eleev. All rights reserved.
-//
-
 import SwiftUI
 
+//  定义视图GameStateBottomView，用于展示底部滑动菜单。
 struct GameStateBottomView: View {
     
     // MARK: - Properties
