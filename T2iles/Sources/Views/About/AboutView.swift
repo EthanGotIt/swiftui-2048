@@ -43,6 +43,7 @@ struct AboutView: View {
             Link(about[PlistConfigurationKeyPath.about.rawValue]?[PlistConfigurationKeyPath.linkDescription.rawValue] ?? "[Missing Information]",
                  destination: URL(string: about[PlistConfigurationKeyPath.about.rawValue]?[PlistConfigurationKeyPath.linkUrl.rawValue] ?? "")!)
                 .multilineTextAlignment(.center)
+                .font(Font.system(.callout, design: .monospaced).weight(.bold))
         }
         .padding(.all, spacing)
         .center(in: .local, with: proxy)
